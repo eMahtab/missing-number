@@ -108,7 +108,8 @@ public class App {
 ```
 
 The above implementation have Runtime complexity of O(nlogn) and Space complexity of O(1). 
-The runtime complexity is O(nlogn), because we are sorting the input array first. So the upper bound for above implementation is O(nlogn), note that binaty search have the runtime complexity of just O(logn). 
+
+The runtime complexity is O(nlogn), because we are sorting the input array first. So the upper bound for above implementation is O(nlogn) because of sort operation, note that binary search have the runtime complexity of just O(logn). 
 ```
 Runtime Complexity = O(nlogn)
 Space Complexity   = O(1)
