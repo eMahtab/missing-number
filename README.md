@@ -13,3 +13,13 @@ Output: 2
 Input: [9,6,4,2,3,5,7,0,1]
 
 Output: 8
+
+There are many approaches to solve this problem. Lets see them one by one.
+
+### Approach 1 : Using HashSet
+
+### Approach 2 : Using Sum Formula
+
+### Approach 3 : Using Binary Search
+
+
