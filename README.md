@@ -52,6 +52,32 @@ Space Complexity   = O(n)
 
 ### Approach 2 : Using Sum Formula
 
+```java
+public class App {
+	public static void main(String[] args) {
+		int[] nums = {0, 2, 3};
+		System.out.println(missingNumber(nums));
+	}
+	
+	private static int missingNumber(int[] nums) {
+		int sum = 0;
+		for(int num : nums) {
+			sum += num;
+		}
+		int n = nums.length;
+		int sumOfFirstNNumbers = (n * (n + 1)) / 2;
+		return sumOfFirstNNumbers - sum;
+	}
+}
+
+```
+```
+The above implementation have Runtime complexity of O(n) and Space complexity of O(1)
+```
+Runtime Complexity = O(n)
+Space Complexity   = O(1)
+```
+
 ### Approach 3 : Using Binary Search
 
 
