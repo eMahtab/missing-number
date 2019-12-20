@@ -71,7 +71,7 @@ public class App {
 }
 
 ```
-```
+
 The above implementation have Runtime complexity of O(n) and Space complexity of O(1)
 ```
 Runtime Complexity = O(n)
