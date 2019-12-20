@@ -2,6 +2,7 @@
 
 Given an array containing n **distinct** numbers taken from **0, 1, 2, ..., n**, find the one that is missing from the array.
 
+**Note : All numbers are distinct and range from 0 to n**
 ### Example 1:
 
 Input: [3,0,1]
